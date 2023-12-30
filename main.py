@@ -1,7 +1,9 @@
-from engine.model.calliope import Calliope
-from engine.model.palindrome import Palindrome
+from datetime import date
+from car_factory import CarFactory
 
-car1 = Calliope(12,4300,13)
-car2 = Palindrome(2022, True)
-print(car1.engine_should_be_serviced())
-print(car2.engine_should_be_serviced())
+
+car1 = CarFactory()
+calliope = car1.create_calliope(date(2023, 12, 30), date(2021, 4, 16), 90098, 68201)
+
+print(car1)
+print(calliope)

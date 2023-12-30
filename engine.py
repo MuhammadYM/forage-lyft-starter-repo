@@ -2,7 +2,7 @@ class Engine:
     def __init__(self) -> None:
         pass
         
-    def needs_service():
+    def needs_service(self):
         pass
 
 class CapuletEngine(Engine):

@@ -48,7 +48,7 @@ class CarFactory:
 
         return Car(engine,battery)
     
-    def create_rorschach(self,current_date,last_service_date,current_mileage,last_service_mileage):
+    def create_thovex(self,current_date,last_service_date,current_mileage,last_service_mileage):
         self.current_date = current_date
         self.last_service_date = last_service_date
         self.current_mileage = current_mileage

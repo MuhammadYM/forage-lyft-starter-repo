@@ -20,7 +20,7 @@ class Carigan_Tire(Tire_Ware):
 
         return ware_count>=1
     
-class Octoprime_tire(Tire_Ware):
+class Octoprime_Tire(Tire_Ware):
     def __init__(self, tire_ware_sensor) -> None:
         super().__init__(tire_ware_sensor)
     
